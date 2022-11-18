@@ -25,7 +25,7 @@ const ChangePassword = () => {
             dispatch(getError("Please make sure both passwords match."))
         }
         else {
-            dispatch(getError("Please try again later..."))
+            dispatch(getError("Temporarily disabled, try again later."))
         }
     }
 
